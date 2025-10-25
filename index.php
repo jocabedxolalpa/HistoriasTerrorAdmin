@@ -310,15 +310,15 @@ body {
   </div>
   <div class="login-box">
     <div class="header">
-      <span>Login</span>
+      <span>Iniciar sesion</span>
     </div>
     <div class="content">
       <div class="input-group">
-        <label>Email-Address</label>
+        <label>correo electronico</label>
         <input type="email" placeholder="max@example.com" required />
       </div>
       <div class="input-group password-group">
-        <label>Password</label>
+        <label>contraseña</label>
         <input type="password" placeholder="12345678" required />
       </div>
       <div class="input-group">
@@ -327,7 +327,7 @@ body {
     </div>
     <div class="footer-password">
       <div class="question">
-        LOGIN
+       Iniciar sesion
       </div>
       <div class="button back-login">
         Back to the Login
@@ -335,7 +335,7 @@ body {
     </div>
     <div class="footer-login">
       <div class="question">
-        Did you forgot your password?
+        ¿olvidaste tu contraseña?
       </div>
       <div class="button request-password">
         request new password
@@ -448,7 +448,7 @@ body {
   
   buttonPassword.addEventListener('click', function(e){
     addClass(loginBox, 'password-reset');
-    inputSubmit.value = 'Reset Password';
+    inputSubmit.value = 'Restablecer contraseña';
     isRequestPassword = true;
   });
   
